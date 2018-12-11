@@ -72,20 +72,6 @@ void loop() {
       restartGame();
     }
   }
-//  Serial.println("Get ready to make your move");
-//  Serial.println("Choose your row");
-//  while(Serial.available()==0){
-//  }
-//  rowMove = Serial.readStringUntil("\n");
-//  Serial.println("You chose row: " + rowMove);   
-////  Serial.println("Choose your column");
-////  while(Serial.available()==0){
-////  }
-////  columnMove = Serial.readStringUntil("\n");
-////  Serial.println("You chose column: " + columnMove);
-//int ID = rowMove.toInt();
-//makemove(*CurrentGame, ID);
-
 
 delay(500);
 }
